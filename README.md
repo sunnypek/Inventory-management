@@ -1,4 +1,8 @@
-# Simple-Website
+# Stock Management System
 Stock management with MySql and php
 
-<b>test account</b> <br/> username: 1@user.com <br/>password: p@ssw0rd!
+<b>Test account</b> 
+<br/> 
+<i>Username:</i> 1@user.com 
+<br/>
+<i>Password:</i> p@ssw0rd!
