@@ -1,0 +1,147 @@
+.loginCover {
+	background: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width:100%;
+	height:100vh;
+	z-index: 800;
+	justify-content: center;
+	align-items: center;
+	opacity: .80; /* Standard: FF gt 1.5, Opera, Safari, CSS3 */
+	-khtml-opacity: .80; /* Safari 1.x */
+	-moz-opacity: .80; /* FF lt 1.5, Netscape */
+	display: none;
+}
+.mdl-list {
+	width: 100%;
+}
+#addFishForm {
+	width:100%;
+}
+#addFishForm .mdl-textfield {
+	width:87%;
+}
+#fishList li:nth-child(odd){
+	background-color: white;
+}
+.stock {
+	text-align: center;
+}
+.stock button, .update button {
+	background-color: grey;
+}
+.stock button span, .update button span {
+	color: white;
+}
+.update{
+	text-align: right;
+}
+.mdl-expansion {
+	width: 100%;
+}
+#inPanel .mdl-textfield, #outPanel .mdl-textfield {
+	width: 100%;
+}
+#fishPicture {
+	height: 200px;
+	line-height: 200px;
+	width: 100%;
+	border-style: dashed;
+	text-align: center;
+	opacity: 0.5;
+}
+#fishPicture span {
+	display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+	font-weight: bold;
+}
+#fishDetailsTab .mdl-list__item-primary-content {
+	width:60%;
+}
+#fishDetailsTab .mdl-list__item-secondary-content {
+	width:40%;
+}
+#CCPPOPanel .mdl-list__item-primary-content {
+	width:100%;
+}
+#CCPPOPanel .mdl-list__item-primary-content .mdl-list__item span{
+	font-size: 1em;
+}
+.loginDiv .mdl-textfield {
+	width:80%;
+}
+.fishProfileSearch .mdl-textfield, .mdl-layout__header-row .mdl-textfield{
+	width:100%;
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	#fishList .mdl-list__item {
+		height: 215px;
+	}
+	#fishList .mdl-list__item-secondary-content {
+		width:45%;
+	}
+	#fishList .mdl-list__item-primary-content {
+		width:55%;
+	}
+	#fishSearch .mdl-list__item {
+		height: 215px;
+	}
+	#fishSearch .mdl-list__item-secondary-content {
+		width:45%;
+	}
+	#fishSearch .mdl-list__item-primary-content {
+		width:55%;
+	}
+	#CCPPOPanel .mdl-list__item-primary-content .mdl-list__item span{
+		font-size: 0.7em;
+	}
+}
+@media only screen and (min-device-width : 360px) and (max-device-width : 640px) {
+	#fishList .mdl-list__item {
+		height: 125px;
+	}
+	#fishList .mdl-list__item-secondary-content {
+		width:35%;
+	}
+	#fishList .mdl-list__item-primary-content {
+		width:65%;
+	}
+	#fishSearch .mdl-list__item {
+		height: 125px;
+	}
+	#fishSearch .mdl-list__item-secondary-content {
+		width:35%;
+	}
+	#fishSearch .mdl-list__item-primary-content {
+		width:65%;
+	}
+	#CCPPOPanel .mdl-list__item-primary-content .mdl-list__item span{
+		font-size: 0.8em;
+	}
+}
+@media only screen and (min-device-width : 481px) and (max-device-width : 500px) {
+	#fishList .mdl-list__item {
+		height: 115px;
+	}
+	#fishList .mdl-list__item-secondary-content {
+		width:25%;
+	}
+	#fishList .mdl-list__item-primary-content {
+		width:75%;
+	}
+	#fishSearch .mdl-list__item {
+		height: 115px;
+	}
+	#fishSearch .mdl-list__item-secondary-content {
+		width:25%;
+	}
+	#fishSearch .mdl-list__item-primary-content {
+		width:75%;
+	}
+	#CCPPOPanel .mdl-list__item-primary-content .mdl-list__item span{
+		font-size: 1em;
+	}
+}
