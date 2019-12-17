@@ -21,10 +21,10 @@
     		$sql->execute();
 
     		echo "<script>alert('Fish has been added')</script>";
-    		header("Refresh:0; url= https://sunnyaqm.com/app/pages/addFish.php");
+    		header("Refresh:0; url= https://sunnyaqm.com/app/pages/addFish.php?email=$email");
     	} else {
     		echo "<script>alert('Sorry, please provide all the details')</script>";
-    		header("Refresh:0; url= https://sunnyaqm.com/app/pages/addFish.php");
+    		header("Refresh:0; url= https://sunnyaqm.com/app/pages/addFish.php?email=$email");
     	}
 	} else {
 	    echo "<script>alert('Sorry, you have to be admin to add fish.')</script>";
