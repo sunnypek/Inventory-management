@@ -1,7 +1,7 @@
 <?php
 	if (!isset($_SERVER[HTTPS])) {
 		header("Location: https://sunnyaqm.com/app/");
-	}
+	};
 ?>
 <!doctype html>
 <!--
@@ -54,7 +54,7 @@
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.cyan-light_blue.min.css">
     <link rel="stylesheet" href="css/styles.css">
 		<link rel="stylesheet" href="css/style.css">
-		
+
 		<script src="js/jquery-3.1.1.min.js"></script>
   </head>
   <body>
