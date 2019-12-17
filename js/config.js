@@ -5,6 +5,6 @@ var config = {
 	databaseURL: "",
 	projectId: "",
 	storageBucket: "",
-	messagingSenderId: ""
+	messagingSenderId: "nill"
 };
 firebase.initializeApp(config);
