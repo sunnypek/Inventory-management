@@ -57,7 +57,7 @@
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.cyan-light_blue.min.css">
     <link rel="stylesheet" href="../css/styles.css">
 		<link rel="stylesheet" href="../css/style.css">
-		
+
 		<script src="../js/jquery-3.1.1.min.js"></script>
   </head>
   <body>
@@ -89,7 +89,7 @@
         <nav class="demo-navigation mdl-navigation mdl-color--blue-grey-800">
 					<a class="mdl-navigation__link" href="home.php"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">home</i>Home</a>
           <a class="mdl-navigation__link" href="summary.php"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">show_chart</i>Summary</a>
-					<a class="mdl-navigation__link" href="addFish.php"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">add</i>Add Fish</a>
+					<span onclick='addFish()'><a class="mdl-navigation__link" href="#"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">add</i>Add Fish</a></span>
           <div class="mdl-layout-spacer"></div>
 					<a class="mdl-navigation__link" href="#" id='logout'><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">cancel</i>Log out</a>
         </nav>
