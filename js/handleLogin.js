@@ -15,11 +15,7 @@ $("#loginBtn").click(
 firebase.auth().onAuthStateChanged(function(user) {
 	if (user) {
 		var email = user.email;
-		//if (email == 'admin@admin.com') {
-		//	window.location = 'pages/adminHome.html';
-		//} else {
-			window.location = 'pages/home.php';
-		//}
+		window.location = 'pages/home.php';
 	} else {
 		// No user is signed in.
 	}
