@@ -1,6 +1,8 @@
 # Stock Management System
-Stock management with MySql and php
-
+Stock management with MySql, php and firebase
+</br>
+Front end using material design lite
+</br>
 <b>Test account</b> 
 <br/> 
 <i>Username:</i> 1@user.com 
