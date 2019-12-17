@@ -13,10 +13,16 @@ function filter() {
 					li[i].style.display = "none";
 			}
 	}
-};
+}
 function fishProfile(id) {
 	firebase.auth().onAuthStateChanged(function(user){
 		var email = user.email;
 		window.location = "fishProfile.php?fish_id="+id+"&email="+email;
 	});
-};
+}
+function addFish() {
+	firebase.auth().onAuthStateChanged(function(user){
+		var email = user.email;
+		window.location = "addFish.php?email="+email;
+	});
+}
