@@ -15,6 +15,7 @@ $("#loginBtn").click(
 firebase.auth().onAuthStateChanged(function(user) {
 	if (user) {
 		var email = user.email;
+		// Redirect to homepage if user is authenticated
 		window.location = 'pages/home.php';
 	} else {
 		// No user is signed in.
