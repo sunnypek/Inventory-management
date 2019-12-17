@@ -1,11 +1,11 @@
 # Stock Management System
 Stock management with MySql, php and firebase
 </br></br>
-Front end using material design lite.
+<i>Front end</i> using material design lite.
 </br>
-Back end using vanilla php and mysql database.
+<i>Back end</i> using vanilla php and mysql database.
 </br>
-Auth using google firebase authentication.
+<i>Auth</i> using google firebase authentication.
 </br></br>
 <b>Test account</b>
 <br/>
