@@ -1,5 +1,5 @@
 # Inventory Management System
-Stock management with MySql, php and firebase
+inventory management with MySql, php and firebase
 </br></br>
 <b>Front end</b> using material design lite.
 </br>
