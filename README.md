@@ -13,4 +13,4 @@ inventory management with MySql, php and firebase
 <br/>
 <i>Password:</i> p@ssw0rd!
 <br/>
-<a href="sunnyaqm.com/app" target="_blank">website<a/>
+sunnyaqm.com/app
