@@ -27,6 +27,18 @@ Firebase Auth, PHP, MySQL, HTML5, CSS, JS
 #### Login page
 ![image](https://user-images.githubusercontent.com/53026868/119018537-c0900e80-b9ce-11eb-9cba-8a5173ea90fe.png)
 
+#### Home page
+![image](https://user-images.githubusercontent.com/53026868/120090542-1c2c6b80-c136-11eb-9bdc-03792ffb6272.png)
+
+#### Summary page
+![image](https://user-images.githubusercontent.com/53026868/120090587-5ac22600-c136-11eb-9e84-e3bb191f8ab8.png)
+
+#### Individual fish page
+![image](https://user-images.githubusercontent.com/53026868/120090575-43833880-c136-11eb-94fb-ef85b7350cad.png)
+
+#### Add fish page (only admin can add)
+![image](https://user-images.githubusercontent.com/53026868/120090603-7299aa00-c136-11eb-8f2f-1e7f36002c77.png)
+
 ---
 
 ### Demo
